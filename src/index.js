@@ -11,6 +11,7 @@ import {
     RouterProvider,
     Route,
 } from "react-router-dom";
+import IdentificationCard from "./components/IdentificationCard/IdentificationCard";
 
 
 
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
     },
     {
         path: "/id",
-        element: <IDCardPage />,
+        element: <IdentificationCard />,
     },
     {
         path: "/settings",
