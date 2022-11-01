@@ -1,6 +1,6 @@
 import NavigationBar from "../components/NavigationBar/NavigationBar";
 import IdentificationCard from "../components/IdentificationCard/IdentificationCard";
-
+import './styles/IDCardPage.css';
 function IDCardPage() {
     return(
         <div>

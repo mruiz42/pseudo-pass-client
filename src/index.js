@@ -9,9 +9,7 @@ import SettingsPage from "./routes/SettingsPage";
 import {
     createBrowserRouter,
     RouterProvider,
-    Route,
 } from "react-router-dom";
-import IdentificationCard from "./components/IdentificationCard/IdentificationCard";
 
 
 
@@ -22,7 +20,7 @@ const router = createBrowserRouter([
     },
     {
         path: "/id",
-        element: <IdentificationCard />,
+        element: <IDCardPage />,
     },
     {
         path: "/settings",
